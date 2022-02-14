@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='UTF-8' />
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src='entrada.js'></script>
+    <script src='salida.js'></script>
+    <script src='numero_random.js'></script>
+    <script src='spawn_enemigos.js'></script>
+    <script src='personaje.js'></script>
+    <script src='enemigo.js'></script>
+    <script src='heroe.js'></script>
+    <script src='https://code.jquery.com/jquery-3.6.0.js'></script>
+</head>
+
+<body>
+    <div class='contenedor'>
+        <div class="heroe">
+            <h1 id="nombre_heroe">Heroe</h1>
+            <h3>Nivel:
+                <lvl id="nivel">-1</lvl>
+            </h3>
+            <h3>Experiencia:
+                <exp id="experiencia">-1</exp>
+            </h3>
+            <h3>Salud:
+                <hp id="salud">-1</hp>
+            </h3>
+            <h3>Ataque:
+                <hp id="ataque">-1</hp>
+            </h3>
+            <h3>Defensa:
+                <hp id="defensa">-1</hp>
+            </h3>
+            <button id="atacar">ATACAR</button>
+            <button id="defenderse">DEFENDERSE</button>
+        </div>
+        <div class="enemigo">
+            <h1 id="nombre_enemigo">Enemigo</h1>
+            <h3>Nivel:
+                <lvl id="nivel">-1</lvl>
+            </h3>
+            <h3>Salud:
+                <hp id="salud">-1</hp>
+            </h3>
+            <h3>Ataque:
+                <hp id="ataque">-1</hp>
+            </h3>
+            <h3>Defensa:
+                <hp id="defensa">-1</hp>
+            </h3>
+            <img src="none" class="responsive" width="200" height="250">
+        </div>
+        <div class="textdisplay">
+            Bienvenido al juego.
+        </div>
+    </div>
+</body>
+<footer>
+    <script src='main.js'></script>
+</footer>
+
+</html>

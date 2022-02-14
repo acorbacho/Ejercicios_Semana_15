@@ -1,0 +1,26 @@
+html {
+    font-family: 'Cascadia Code';
+}
+
+body {
+    margin: 0;
+    background-color:blanchedalmond;
+}
+
+.contenedor {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.textdisplay {
+    border-style: solid;
+    margin: 60px;
+    padding: 30px;
+    width: 70vh;
+    height: 10vh;
+    background: lightblue;
+    border: 3px solid;
+    text-align: left;
+    line-height: 100%;
+    font-size: 13px;
+}
