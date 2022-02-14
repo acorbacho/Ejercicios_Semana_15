@@ -1,4 +1,5 @@
 class Personaje {
+
     constructor(nombre, vida, ataque, nivel, defensa, isDefendiendo, img) {
         this.nombre = nombre
         this.vida = vida
@@ -67,7 +68,9 @@ class Personaje {
 
     receiveDmg(dmg) {
         let dado = numero_random(0, 6)
+
         if (dado >= 3) {
+
             if (this.isDefendiendo && dmg > this.defensa) {
                 if (this.vida >= (dmg - this.defensa)) {
                     this.vida = this.vida - (dmg - this.defensa)
@@ -85,6 +88,7 @@ class Personaje {
                 }
                 return this.vida
             }
+
         } else {
             $('.textdisplay').html('El ataque no ha sido efectivo contra ' + this.getNombre + '.')
             return this.vida

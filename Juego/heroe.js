@@ -1,4 +1,5 @@
 class Heroe extends Personaje {
+
     constructor(nombre, vida, ataque, nivel, experiencia, defensa, isDefendiendo, img) {
         super(nombre, vida, ataque, nivel, defensa, isDefendiendo, img)
         this.experiencia = experiencia
