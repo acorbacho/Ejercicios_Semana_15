@@ -64,6 +64,7 @@ function main() {
         if (!isDead) {
             setTimeout(recibir, 200)
         }
+
     }
 
     //Función que ejecuta el proceso de defensa del heroe.
@@ -79,6 +80,7 @@ function main() {
         if (!isDead) {
             setTimeout(recibir, 1000)
         }
+
     }
 
     //Función que ejecuta el contraataque del enemigo.
@@ -123,6 +125,8 @@ function main() {
             $('.textdisplay').html(enemigo.getNombre + ' ha aparecido.')
             return true
         }
+
     }
+
 }
 main()

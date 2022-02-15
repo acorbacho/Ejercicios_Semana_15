@@ -39,4 +39,5 @@ class Heroe extends Personaje {
         let atackLevel = this.ataque * this.nivel
         return atackLevel
     }
+
 }

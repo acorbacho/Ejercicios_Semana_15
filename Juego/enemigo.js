@@ -8,4 +8,5 @@ class Enemigo extends Personaje {
         let experience = (this.nivel * 5) / herolv
         return experience
     }
+
 }

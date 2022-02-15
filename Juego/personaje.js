@@ -93,14 +93,17 @@ class Personaje {
             $('.textdisplay').html('El ataque no ha sido efectivo contra ' + this.getNombre + '.')
             return this.vida
         }
+
     }
 
-
     stillAlive() {
+
         if (this.vida === 0) {
             return false
         } else {
             return true
         }
+
     }
+
 }
